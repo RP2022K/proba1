@@ -1,0 +1,78 @@
+
+/*
+Gyüre Árpád
+Szoft I-E-1
+2022.11.20
+*/
+
+body{
+    background-color: #bac5dd;
+}
+.container{
+    width: 990px;
+}
+.header{
+    height: 430px;
+    background: url("./img/picture1.jpg");
+    background-size: contain;
+}
+.header h1{
+    display: inline-block;
+    font-size: 3em;
+    font-weight:bolder;
+    color: white;
+    font-family: sans-serif;
+    padding-left: 300px;
+    padding-top: 226px;
+}
+nav{
+    background-color: #5473b4;
+}
+.dropdown-menu{
+    background-color: #5473b4;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item:hover{
+    color: black;
+    background-color: #5473b4;
+}
+.nav-link{
+    margin: 0 38px;
+    color: white;
+}
+.bal{
+    width: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.jobb{
+    width: 50%;
+    float: right;
+    margin-left: 15px;
+}
+p{
+    font-size: smaller;
+    padding: 10px;
+    text-align: justify;
+}
+.bal::after .jobb::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.up{
+    height: 362px;
+    background-color: rgb(212, 211, 211);
+}
+.down{
+    height: 362px;
+    background-color: rgb(212, 211, 211);
+}
+.footer{
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+}
